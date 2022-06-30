@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F66992B4-2ACA-4AFF-A32D-2F429254D75A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Domain", "src\CartTdd.Domain\CartTdd.Domain.csproj", "{31992DD7-4140-4E65-B81E-3E086FA5F61F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Domain.Tests", "tests\CartTdd.Domain.Tests\CartTdd.Domain.Tests.csproj", "{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Infrastructure", "src\CartTdd.Infrastructure\CartTdd.Infrastructure.csproj", "{63EC9D64-DDB7-4062-9090-D35649A2350D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Application", "src\CartTdd.Application\CartTdd.Application.csproj", "{6EB66612-D921-46B4-B969-329BA1DAAFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Api", "src\CartTdd.Api\CartTdd.Api.csproj", "{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartTdd.Api.Tests", "tests\CartTdd.Api.Tests\CartTdd.Api.Tests.csproj", "{FBFBB497-E799-4F65-991B-06FBEC0A90C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E9209860-DF71-4850-9D4E-4823EF1EFD70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31992DD7-4140-4E65-B81E-3E086FA5F61F} = {F66992B4-2ACA-4AFF-A32D-2F429254D75A}
+		{63EC9D64-DDB7-4062-9090-D35649A2350D} = {F66992B4-2ACA-4AFF-A32D-2F429254D75A}
+		{6EB66612-D921-46B4-B969-329BA1DAAFBC} = {F66992B4-2ACA-4AFF-A32D-2F429254D75A}
+		{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B} = {F66992B4-2ACA-4AFF-A32D-2F429254D75A}
+		{FBFBB497-E799-4F65-991B-06FBEC0A90C2} = {E9209860-DF71-4850-9D4E-4823EF1EFD70}
+		{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F} = {E9209860-DF71-4850-9D4E-4823EF1EFD70}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31992DD7-4140-4E65-B81E-3E086FA5F61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31992DD7-4140-4E65-B81E-3E086FA5F61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31992DD7-4140-4E65-B81E-3E086FA5F61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31992DD7-4140-4E65-B81E-3E086FA5F61F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA59791-F1F4-4DD1-9177-89DC12BF6C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EC9D64-DDB7-4062-9090-D35649A2350D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EC9D64-DDB7-4062-9090-D35649A2350D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EC9D64-DDB7-4062-9090-D35649A2350D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EC9D64-DDB7-4062-9090-D35649A2350D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB66612-D921-46B4-B969-329BA1DAAFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB66612-D921-46B4-B969-329BA1DAAFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB66612-D921-46B4-B969-329BA1DAAFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB66612-D921-46B4-B969-329BA1DAAFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073A0BA5-9C3A-4A2A-A690-BEE4452F3B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFBB497-E799-4F65-991B-06FBEC0A90C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFBB497-E799-4F65-991B-06FBEC0A90C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFBB497-E799-4F65-991B-06FBEC0A90C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFBB497-E799-4F65-991B-06FBEC0A90C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
