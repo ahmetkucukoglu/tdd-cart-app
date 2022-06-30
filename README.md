@@ -1,6 +1,10 @@
 # tdd-cart-app
 Shopping Cart App with TDD
 
+TR - https://www.ahmetkucukoglu.com/test-driven-development/
+
+EN - https://www.ahmetkucukoglu.com/en/test-driven-development/
+
 ### Test Cases
 
 Unit Test Cases
